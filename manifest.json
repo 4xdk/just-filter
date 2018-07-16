@@ -1,0 +1,14 @@
+  {
+    "name": "Just Eat improved",
+    "version": "1.0",
+    "description": "Improve the default filtering and sorting on Just Eat listings", 
+    "permissions": ["storage", "declarativeContent", "activeTab"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
